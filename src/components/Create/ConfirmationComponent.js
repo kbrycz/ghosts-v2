@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import {View, StyleSheet, Text, Dimensions, TouchableOpacity, TextInput, Alert} from 'react-native'
+import {StyleSheet, Text, Dimensions, TouchableOpacity, TextInput, Platform} from 'react-native'
 import SimpleModalComponent from '../Modal/SimpleModalComponent'
 import * as Color from '../../../global/Color'
 
