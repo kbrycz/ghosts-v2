@@ -2,7 +2,7 @@
   "expo": {
     "name": "Ghosts",
     "slug": "ghosts",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -15,7 +15,10 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.kbrycz2555.ghosts"
+      "bundleIdentifier": "com.kbrycz2555.ghosts",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app requires microphone access to enable voice chat features."
+      }
     },
     "android": {
       "adaptiveIcon": {
